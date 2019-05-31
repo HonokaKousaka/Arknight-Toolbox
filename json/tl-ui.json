@@ -29,7 +29,7 @@
     },
     {
         "id":"topbar-4",
-        "ui_cn":"升级计算",
+        "ui_cn":"升级消耗计算器",
         "ui_en":"Leveling Calculator",
         "ui_jp":"",
         "ui_kr":""
@@ -43,7 +43,7 @@
     },
     {
         "id":"topbar-6",
-        "ui_cn":"精英材料计算",
+        "ui_cn":"精英材料计算器",
         "ui_en":"Material Calculator",
         "ui_jp":"",
         "ui_kr":""
@@ -106,7 +106,7 @@
     },
     {
         "id":"selector-categories-6",
-        "ui_cn":"明星",
+        "ui_cn":"稀有度",
         "ui_en":"Rarity",
         "ui_jp":"",
         "ui_kr":""
@@ -164,6 +164,13 @@
         "id":"result-characters",
         "ui_cn":"可能出现",
         "ui_en":"Character Possibility",
+        "ui_jp":"",
+        "ui_kr":""
+    },
+	    {
+        "id":"calculator-label",
+        "ui_cn":"计算器",
+        "ui_en":"Calculator",
         "ui_jp":"",
         "ui_kr":""
     },
