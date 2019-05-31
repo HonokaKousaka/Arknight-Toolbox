@@ -1,12 +1,7 @@
-#### Personal page to do list :
-things might be not made following the list
+#### 明日方舟工具箱 - 新坑 自用，更新非常慢
 
-1. Chara detail (directly from translated data from dragonjet)
-2. Item List : the detail and where to find it (include material)
-3. Stage list 
-4. Daily list
-5. Mission from newbie,daily,and main mission
-6. Show item list
-7. ~~Fallout shelter~~ (infrastructure stuff check) 
+修复BUG的进度缓慢，具体进度可在网站查询
 
-?. (probably never) stage simulator 
+来自Aceship的程序
+
+Forked from Aceship，thank this program very much
