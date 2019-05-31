@@ -2,185 +2,180 @@
 
 <html lang="zh-Hans" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Arknights Recruitment Calculator</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/multilingual.css">
-    <link rel="stylesheet" href="css/ak.css">
-    <script src="js/jquery-3.4.0.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/multilingual.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138420636-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-138420636-1');
-    </script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Arknights Toolbox</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/multilingual.css">
+<link rel="stylesheet" href="css/ak.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link rel="stylesheet" href="css/docs.min.css">
+<link rel="stylesheet" href="css/patch.css">
+<link rel="stylesheet" href="css/multilingual.css">
+<script src="js/jquery-3.4.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/multilingual.js"></script>
+<script src="js/docs.min.js"></script>
 </head>
 <body>
-    <button class="btn btn-sm btn-primary goToTag" style="position:fixed;bottom:15px ;right: 0px;size:70px 70px;padding: 10px;z-index: 10000" id="to-tag" type="button">^ </button>
-    <nav id="aknav" class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" style="background-image: linear-gradient(#222222ff 70%,#222222ff , #111111aa );">
-            <img src="./img/factions/logo_rhodes.png" width="40" height="40" style="transform:scale(1.2,1.2)translate(-8px,1px)"class="d-inline-block align-top" alt="">
-            <a class="navbar-brand" href="#" translate-id="topbar-1">Arknights Toolbox</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="展开">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    </nav>
-    <div style="padding-bottom:50px"></div>
-    <div class="container col-12" style="margin:auto; max-width: 1200px;">
-    	<div class="row">
-    		<div class="col-md-6 col-sm-12">
-		        <div class="alert alert-dark mt-3 px-3 px-sm-4 form-control-sm">
-		            <div class="form-row">
-		                <div class="form-group col-12 col-sd-2">
-		                    <label for="star">Rarity★</label>
-		                    <select id="star" class="form-control form-control-sm">
-		                        <option selected>6</option>
-		                        <option>5</option>
-		                        <option>4</option>
-		                        <option>3</option>
-		                        <option>2</option>
-		                        <option>1</option>
-		                    </select>
-		                </div>
-		                <div class="form-group col-6 col-sm-5">
-		                    <label for="lslevel">EXP Card Map</label>
-		                    <select id="lslevel" class="form-control form-control-sm">
-		                        <option selected>LS-5</option>
-		                        <!--<option>LS-4</option>
+<button class="btn btn-sm btn-primary goToTag" style="position:fixed;bottom:15px ;right: 0px;size:70px 70px;padding: 10px;z-index: 10000" id="to-tag" type="button"><i class="fas fa-angle-up"></i></button>
+<nav id="aknav" class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" style="background-image: linear-gradient(#222222ff 70%,#222222ff , #111111aa );"> <img src="./img/factions/logo_rhodes.png" width="40" height="40" style="transform:scale(1.2,1.2)translate(-8px,1px)"class="d-inline-block align-top" alt=""> <a class="navbar-brand" href="#" translate-id="topbar-1">Arknights Toolbox</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="展开"> <span class="navbar-toggler-icon"></span> </button>
+</nav>
+<div style="padding-bottom:75px" ></div>
+<div class="container col-12" style="margin:auto; max-width: 1200px;">
+  <div class="row col-12 tutorial ak-mid" style="margin:auto; background-color: #e2e3e5;">
+    <div class="col-12 col-sm-6 text-left">
+        <br>
+      <p><b>各稀有度的最高等级：</b></p>
+      <p>1★：30 <br>
+        2★：30<br>
+        3★：40/55<br>
+        4★：45/60/70<br>
+        5★：50/70/80<br>
+        6★：50/80/90</p>
+    </div>
+    <div class="col-12 col-sm-6 text-left">
+        <br>
+      <p><b>作战记录单个所含的经验值：</b></p>
+      <p>基础作战记录：200 Exp<br>
+      初级作战记录：400 Exp<br>
+      中级作战记录：1000 Exp<br>
+      高级作战记录：2000 Exp</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-sm-12">
+      <div class="alert alert-dark mt-3 px-3 px-sm-4 form-control-sm">
+        <div class="form-row">
+          <div class="form-group col-12 col-sd-2">
+            <label for="star">稀有度★</label>
+            <select id="star" class="form-control form-control-sm">
+              <option selected>6</option>
+              <option>5</option>
+              <option>4</option>
+              <option>3</option>
+              <option>2</option>
+              <option>1</option>
+            </select>
+          </div>
+          <div class="form-group col-6 col-sm-5">
+            <label for="lslevel">战术演习(作战记录）</label>
+            <select id="lslevel" class="form-control form-control-sm">
+              <option selected>LS-5</option>
+              <!--<option>LS-4</option>
 		                        <option>LS-3</option>
 		                        <option>LS-2</option>
 		                        <option>LS-1</option>-->
-		                    </select>
-		                </div>
-		                <div class="form-group col-6 col-sm-5">
-		                    <label for="lslevel">Lungmen Coin Map</label>
-		                    <select id="lslevel" class="form-control form-control-sm">
-		                        <option selected>CE-5</option>
-		                        <!--<option>CE-4</option>
+            </select>
+          </div>
+          <div class="form-group col-6 col-sm-5">
+            <label for="lslevel">货物运送(龙门币)</label>
+            <select id="lslevel" class="form-control form-control-sm">
+              <option selected>CE-5</option>
+              <!--<option>CE-4</option>
 		                        <option>CE-3</option>
 		                        <option>CE-2</option>
 		                        <option>CE-1</option>-->
-		                    </select>
-		                </div>
-		            </div>
-
-		            <div class="form-row">
-		                <div class="form-group col-4">
-		                    <label for="current-evolve">Current Elite</label>
-		                    <select id="current-evolve" class="form-control form-control-sm">
-		                        <option selected>0</option>
-		                        <option>1</option>
-		                        <option>2</option>
-		                    </select>
-		                </div>
-		                <div class="form-group col-4">
-		                    <label for="current-level">Current Level</label>
-		                    <input type="text" class="form-control form-control-sm" id="current-level" value="1">
-		                </div>
-		                <div class="form-group col-4">
-		                    <label for="current-exp">Current Exp</label>
-		                    <input type="text" class="form-control form-control-sm" id="current-exp" value="0">
-		                </div>
-		                <div class="form-group col-4">
-		                    <label for="target-evolve">Target Elite</label>
-		                    <select id="target-evolve" class="form-control form-control-sm">
-		                        <option selected>0</option>
-		                        <option>1</option>
-		                        <option>2</option>
-		                    </select>
-		                </div>
-		                <div class="form-group col-6">
-		                    <label for="target-level">Target Level</label>
-		                    <input type="text" class="form-control form-control-sm" id="target-level" value="1">
-		                </div>
-		                <div style="width: 100%; display: inline-block; padding: 5px; font-weight: bold; font-size: 1.2em; margin-bottom: 10px;"><span>Resources currently have:</span></div>
-		                <div class="form-group col-4">
-		                    <label for="gold-asset">Lungmen Coins</label>
-		                    <input type="text" class="form-control form-control-sm" id="gold-asset" value="0">
-		                </div>
-		                <div class="form-group col-3">
-		                    <label for="book-basic">Green Exp Card</label>
-		                    <input type="text" class="form-control form-control-sm" id="book-basic" value="0">
-		                </div>
-		                <div class="form-group col-3">
-		                    <label for="book-primary">Blue Exp Card</label>
-		                    <input type="text" class="form-control form-control-sm" id="book-primary" value="0">
-		                </div>
-		                <div class="form-group col-3">
-		                    <label for="book-middle">Yellow Exp Card</label>
-		                    <input type="text" class="form-control form-control-sm" id="book-middle" value="0">
-		                </div>
-		                <div class="form-group col-3">
-		                    <label for="book-advanced">Gold Exp Card</label>
-		                    <input type="text" class="form-control form-control-sm" id="book-advanced" value="0">
-		                </div>
-		            </div>
-		        </div>
-		        <div class="row">
-		            <button class="btn btn-success col-10 text-center" id="btn-calculate" style="margin:auto;">Calculate</button>
-
-		        </div>
-	        </div>
-	        <div class="col-md-6 col-sm-12">
-	        	<table class="table ak-table table-striped my-3">
-	                <thead class="thead-dark">
-	                    <tr>
-	                        <th scope="col" width="40%" class="text-right">Resource</th>
-	                        <th scope="col" width="60%">Demand</th>
-	                    </tr>
-	                </thead>
-	                <tbody id="tbody-result"></tbody>
-	            </table>
-	        </div>
+            </select>
+          </div>
         </div>
-        <div class="col-12 alert alert-danger mt-3" id="error-info" role="alert" style="display:none"></div>
-        <div class="row">
-            
+        <div class="form-row">
+          <div class="form-group col-4">
+            <label for="current-evolve">当前精英化等级</label>
+            <select id="current-evolve" class="form-control form-control-sm">
+              <option selected>0</option>
+              <option>1</option>
+              <option>2</option>
+            </select>
+          </div>
+          <div class="form-group col-4">
+            <label for="current-level">当前等级</label>
+            <input type="text" class="form-control form-control-sm" id="current-level" value="1">
+          </div>
+          <div class="form-group col-4">
+            <label for="current-exp">当前经验</label>
+            <input type="text" class="form-control form-control-sm" id="current-exp" value="0">
+          </div>
+          <div class="form-group col-4">
+            <label for="target-evolve">目标精英化等级</label>
+            <select id="target-evolve" class="form-control form-control-sm">
+              <option selected>0</option>
+              <option>1</option>
+              <option>2</option>
+            </select>
+          </div>
+          <div class="form-group col-6">
+            <label for="target-level">目标等级</label>
+            <input type="text" class="form-control form-control-sm" id="target-level" value="1">
+          </div>
+          <div style="width: 100%; display: inline-block; padding: 5px; font-weight: bold; font-size: 1.2em; margin-bottom: 10px;"><span>已经拥有:</span></div>
+          <div class="form-group col-4">
+            <label for="gold-asset">龙门币</label>
+            <input type="text" class="form-control form-control-sm" id="gold-asset" value="0">
+          </div>
+          <div class="form-group col-3">
+            <label for="book-basic">基础作战记录(绿色)</label>
+            <input type="text" class="form-control form-control-sm" id="book-basic" value="0">
+          </div>
+          <div class="form-group col-3">
+            <label for="book-primary">初级作战记录(蓝色)</label>
+            <input type="text" class="form-control form-control-sm" id="book-primary" value="0">
+          </div>
+          <div class="form-group col-3">
+            <label for="book-middle">中级作战记录(黄色)</label>
+            <input type="text" class="form-control form-control-sm" id="book-middle" value="0">
+          </div>
+          <div class="form-group col-3">
+            <label for="book-advanced">高级作战记录(金色)</label>
+            <input type="text" class="form-control form-control-sm" id="book-advanced" value="0">
+          </div>
         </div>
-        <hr />
-        <div class="row col-12 tutorial ak-mid" style="margin:auto">
-            <div class="col-12 col-sm-6 text-left">
-                <p><b>Maximum level of each star</b></p>
-                <p>1★：30</p>
-                <p>2★：30</p>
-                <p>3★：40/55</p>
-                <p>4★：45/60/70</p>
-                <p>5★：50/70/80</p>
-                <p>6★：50/80/90</p>
-            </div>
-            <div class="col-12 col-sm-6 text-left">
-                <p><b>Exp Card yields：</b></p>
-                <p>Green Card：200<sub></sub></p>
-                <p>Blue Card：400</p>
-                <p>Yellow Card：1000</p>
-                <p>Gold Card：2000</p>
-            </div>
-        </div>
+      </div>
+      <div class="row">
+        <button class="btn btn-success col-10 text-center" id="btn-calculate" style="margin:auto;"><i class="fas fa-square-root-alt"></i> 计算</button>
+      </div>
     </div>
-    <div class="row col-12 ak-footer">
-        <div class="col-12 text-center">
-            <p>Forked from <a href = "https://graueneko.github.io/akhr.html">grauneko web</a></p>
-        <div class="col-12 text-center"></div>
-            <p>Last update: 12 May 2019, <a href="https://github.com/Aceship/AN-EN-Tags/issues">Contact</a></p>
-            <p>
-                Data source:
-                <a href="http://wiki.joyme.com/arknights/%E5%B9%B2%E5%91%98%E6%95%B0%E6%8D%AE%E8%A1%A8">Arknights Wiki (CN)</a>
-            </p>
-            <p>Powered by GraueNeko, Aceship, Faryzal2020</p>
-        </div>
+    <div class="col-md-6 col-sm-12">
+      <table class="table ak-table table-striped my-3">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col" width="40%" class="text-right">名称</th>
+            <th scope="col" width="60%">结果</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-result">
+        </tbody>
+      </table>
     </div>
-    <script src="./js/aknav.js"></script>
-    <script>
+  </div>
+  <div class="col-12 alert alert-danger mt-3" id="error-info" role="alert" style="display:none"></div>
+  <div class="row"> </div>
+</div>
+    <br>
+<footer class="bd-footer text-muted" style="background-color: #B3B3B3;">
+  <div class="container-fluid p-3 p-md-5">
+    <ul class="bd-footer-links">
+      <li><a href="https://github.com/HonokaKousaka"><i class="fab fa-github"></i> HonokaKousaka</a></li>
+    </ul>
+    <p><script type="text/javascript">
+  document.write(new Date().getFullYear());
+	</script> Modify Designed by TsukishiroHitomi</p>
+    <p>Program Powered By Aceship</p>
+        <p><a class="navbar-brand" href="#">
+    <img src="/img/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    Bootstrap
+  </a></p>
+  </div>
+</footer>
+<script src="./js/aknav.js"></script> 
+<script>
         $(function () {
             showCurrentLang();
             let lang = getLang();
-            document.title = { 'cn': '明日方舟升级计算器', 'en': 'Arknights Levelup Cost Calculator' }[lang];
+            document.title = { 'cn': '升级消耗计算器 - 明日方舟工具箱 Hitomi.moe', 'en': 'Levelup Cost Calculator - Arknight Toolbox Hitomi.moe' }[lang];
             let maxLevel = [];
             let charExpMap = [];
             let charUpCostMap = [];
@@ -218,31 +213,31 @@
                 let bm = parseInt($("#book-middle").val());
                 let ba = parseInt($("#book-advanced").val());
                 if (isNaN(cl) || isNaN(tl)) {
-                    $("#error-info").html("The rating must be a number from 1 to 90.");
+                    $("#error-info").html("等级必须为1~90的数字。");
                     $("#error-info").show();
                     return;
                 }
                 if (isNaN(ga) || isNaN(bb) || isNaN(bp) || isNaN(bm) || isNaN(ba)) {
-                    $("#error-info").html("The input for gold coins/experience books available can only be numbers.");
+                    $("#error-info").html("已有龙门币/作战记录的数量只能为数字。");
                     $("#error-info").show();
                     return;
                 }
                 if (te < cev || (te === cev && tl <= cl)) {
-                    $("#error-info").html("The target level cannot be lower than or equal to the current level.");
+                    $("#error-info").html("目标等级不能低于或等于当前等级。");
                     $("#error-info").show();
                     return;
                 }
                 if (cl > maxLevel[star - 1][cev] || tl > maxLevel[star - 1][te]) {
-                    $("#error-info").html("The level is beyond the scope of the elite stage.");
+                    $("#error-info").html("等级超出该精英化阶段的范围");
                     $("#error-info").show();
                     return;
                 }
                 if (isNaN(ce) || ce < 0) {
-                    $("#error-info").html("Current experience must be a positive integer");
+                    $("#error-info").html("当前经验必须为正整数");
                     $("#error-info").show();
                     return;
                 } else if ((cl === maxLevel[star - 1][cev] && ce !== 0) || ((cl !== maxLevel[star - 1][cev] && ce >= charExpMap[cev][cl - 1]))) {
-                    $("#error-info").html("The current experience is outside the possible range, please check the input.");
+                    $("#error-info").html("当前经验的数值可能与当前等级不符，请检查输入");
                     $("#error-info").show();
                     return;
                 }
@@ -275,13 +270,13 @@
                 let lsn = Math.ceil((eb / 7500).toFixed(1));
                 let cen = Math.ceil((gn / 7500).toFixed(1));
                 $.each([
-                    ['Total Sanity Cost', "<b>" + (lsn + cen) * 30 + "</b> <sub>= " + lsn * 30 + " + " + cen * 30 + "</sub>"],
-                    ['Exp', "<b>" + eb + "</b> <sub>= " + es + " - " + bs + "</sub>"],
-                    ['LS Sanity <sub>Cost</sub>', "<b>" + lsn * 30 + "</b> <sub>= 30 * " + lsn + "</sub>"],
-                    ['Coins', "<b>" + gn + "</b> <sub>= " + gs + " - " + ga + "</sub>"],
-                    ['CE Sanity <sub>Cost</sub>', "<b>" + cen * 30 + "</b> <sub>= 30 * " + cen + "</sub>"],
-                    ['Coins for Leveling', cs.toFixed(1)],
-                    ['Coins for Elite', ea],
+                    ['总花费理智', "<b>" + (lsn + cen) * 30 + "</b> <sub>= " + lsn * 30 + " + " + cen * 30 + "</sub>"],
+                    ['还需经验值', "<b>" + eb + "</b> <sub>= " + es + " - " + bs + "</sub>"],
+                    ['LS花费理智', "<b>" + lsn * 30 + "</b> <sub>= 30 * " + lsn + "</sub>"],
+                    ['还需龙门币', "<b>" + gn + "</b> <sub>= " + gs + " - " + ga + "</sub>"],
+                    ['CE花费理智', "<b>" + cen * 30 + "</b> <sub>= 30 * " + cen + "</sub>"],
+                    ['升级所需龙门币', cs.toFixed(1)],
+                    ['精英化所需龙门币', ea],
                 ], function (_, v) {
                     $("#tbody-result").append('<tr><th scope="row" class="text-right">' + v[0] + '</th><td>' + v[1] + '</td></tr>');
                 });
