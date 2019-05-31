@@ -5186,7 +5186,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "CONTROL",
-      "description": "进驻控制中枢时，所有贸易站订单效率<@cc.vup>+7%</>"
+      "description": "进驻控制中枢时，所有贸易站订单效率 +7%"
     },
     "control_mp_cost[000]": {
       "buffId": "control_mp_cost[000]",
@@ -5196,7 +5196,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "进驻控制中枢时，控制中枢内的其他干员心情每小时消耗<@cc.vup>-0.05</>"
+      "description": "进驻控制中枢时，控制中枢内的其他干员心情每小时消耗 -0.05"
     },
     "control_mp_cost[001]": {
       "buffId": "control_mp_cost[001]",
@@ -5206,7 +5206,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "进驻控制中枢时，控制中枢内的其他干员心情每小时消耗<@cc.vup>-0.05</>"
+      "description": "进驻控制中枢时，控制中枢内的其他干员心情每小时消耗 -0.05"
     },
     "power_rec_spd[000]": {
       "buffId": "power_rec_spd[000]",
@@ -5216,7 +5216,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "当进驻发电站时，无人机每小时恢复速度<@cc.vup>+10%</>"
+      "description": "当进驻发电站时，无人机每小时恢复速度 +10%"
     },
     "power_rec_spd[001]": {
       "buffId": "power_rec_spd[001]",
@@ -5226,7 +5226,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "当进驻发电站时，无人机每小时恢复速度<@cc.vup>+15%</>"
+      "description": "当进驻发电站时，无人机每小时恢复速度 +15%"
     },
     "power_rec_spd[010]": {
       "buffId": "power_rec_spd[010]",
@@ -5236,7 +5236,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "当进驻发电站时，无人机每小时恢复速度<@cc.vup>+10%</>"
+      "description": "当进驻发电站时，无人机每小时恢复速度 +10%"
     },
     "power_rec_spd[020]": {
       "buffId": "power_rec_spd[020]",
@@ -5246,7 +5246,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "当进驻发电站时，无人机每小时恢复速度<@cc.vup>+15%</>"
+      "description": "当进驻发电站时，无人机每小时恢复速度 +15%"
     },
     "power_rec_spd[030]": {
       "buffId": "power_rec_spd[030]",
@@ -5256,7 +5256,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "当进驻发电站时，无人机每小时恢复速度<@cc.vup>+15%</>"
+      "description": "当进驻发电站时，无人机每小时恢复速度 +15%"
     },
     "power_rec_spd[031]": {
       "buffId": "power_rec_spd[031]",
@@ -5266,7 +5266,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "当进驻发电站时，无人机每小时恢复速度<@cc.vup>+20%</>"
+      "description": "当进驻发电站时，无人机每小时恢复速度 +20%"
     },
     "manu_prod_spd[000]": {
       "buffId": "manu_prod_spd[000]",
@@ -5276,7 +5276,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，生产力<@cc.vup>+15%</>"
+      "description": "进驻制造站时，生产力 +15%"
     },
     "manu_prod_spd[001]": {
       "buffId": "manu_prod_spd[001]",
@@ -5286,7 +5286,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，生产力<@cc.vup>+25%</>"
+      "description": "进驻制造站时，生产力 +25%"
     },
     "manu_prod_spd[010]": {
       "buffId": "manu_prod_spd[010]",
@@ -5296,7 +5296,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，生产力<@cc.vup>+15%</>"
+      "description": "进驻制造站时，生产力 +15%"
     },
     "manu_prod_spd[011]": {
       "buffId": "manu_prod_spd[011]",
@@ -5306,7 +5306,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，生产力<@cc.vup>+25%</>"
+      "description": "进驻制造站时，生产力 +25%"
     },
     "manu_prod_spd[020]": {
       "buffId": "manu_prod_spd[020]",
@@ -5316,7 +5316,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，生产力<@cc.vup>+30%</>"
+      "description": "进驻制造站时，生产力 +30%"
     },
     "manu_prod_spd_addition[030]": {
       "buffId": "manu_prod_spd_addition[030]",
@@ -5326,7 +5326,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站后，生产力首小时<@cc.vup>+20%</>，此后每小时<@cc.vup>+1%</>，最终达到<@cc.vup>+25%</>"
+      "description": "进驻制造站后，生产力首小时 +20%，此后每小时 +1%，最终达到 +25%"
     },
     "manu_prod_spd_addition[040]": {
       "buffId": "manu_prod_spd_addition[040]",
@@ -5336,7 +5336,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站后，生产力首小时<@cc.vup>+15%</>，此后每小时<@cc.vup>+2%</>，最终达到<@cc.vup>+25%</>"
+      "description": "进驻制造站后，生产力首小时 +15%，此后每小时 +2%，最终达到 +25%"
     },
     "manu_prod_spd&limit[000]": {
       "buffId": "manu_prod_spd&limit[000]",
@@ -5346,7 +5346,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，仓库容量上限<@cc.vup>+6</>，生产力<@cc.vup>+10%</>"
+      "description": "进驻制造站时，仓库容量上限 +6，生产力 +10%"
     },
     "manu_prod_spd&limit[001]": {
       "buffId": "manu_prod_spd&limit[001]",
@@ -5356,7 +5356,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，仓库容量上限<@cc.vup>+10</>，生产力<@cc.vup>+10%</>"
+      "description": "进驻制造站时，仓库容量上限 +10，生产力 +10%"
     },
     "manu_prod_limit&cost[000]": {
       "buffId": "manu_prod_limit&cost[000]",
@@ -5366,7 +5366,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，仓库容量上限<@cc.vup>+8</>，每小时心情消耗<@cc.vup>-0.25</>"
+      "description": "进驻制造站时，仓库容量上限 +8，每小时心情消耗 -0.25"
     },
     "manu_prod_spd&limit&cost[000]": {
       "buffId": "manu_prod_spd&limit&cost[000]",
@@ -5376,7 +5376,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，生产力<@cc.vdown>-5%</>，仓库容量上限<@cc.vup>+16</>，每小时心情消耗<@cc.vup>-0.15</>"
+      "description": "进驻制造站时，生产力 -5%，仓库容量上限 +16，每小时心情消耗 -0.15"
     },
     "manu_prod_spd&limit&cost[001]": {
       "buffId": "manu_prod_spd&limit&cost[001]",
@@ -5386,7 +5386,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，生产力<@cc.vdown>-5%</>，仓库容量上限<@cc.vup>+16</>，每小时心情消耗<@cc.vup>-0.25</>"
+      "description": "进驻制造站时，生产力 -5%，仓库容量上限 +16，每小时心情消耗 -0.25"
     },
     "manu_formula_spd[000]": {
       "buffId": "manu_formula_spd[000]",
@@ -5396,7 +5396,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，<@cc.kw>作战记录</>类配方的生产力<@cc.vup>+30%</>"
+      "description": "进驻制造站时，作战记录类配方的生产力 +30%"
     },
     "manu_formula_spd[001]": {
       "buffId": "manu_formula_spd[001]",
@@ -5406,7 +5406,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，<@cc.kw>作战记录</>类配方的生产力<@cc.vup>+35%</>"
+      "description": "进驻制造站时，作战记录类配方的生产力 +35%"
     },
     "manu_formula_spd[100]": {
       "buffId": "manu_formula_spd[100]",
@@ -5416,7 +5416,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，<@cc.kw>贵金属</>类配方的生产力<@cc.vup>+30%</>"
+      "description": "进驻制造站时，贵金属类配方的生产力 +30%"
     },
     "manu_formula_spd[101]": {
       "buffId": "manu_formula_spd[101]",
@@ -5426,7 +5426,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，<@cc.kw>贵金属</>类配方的生产力<@cc.vup>+35%</>"
+      "description": "进驻制造站时，贵金属类配方的生产力 +35%"
     },
     "manu_formula_spd[200]": {
       "buffId": "manu_formula_spd[200]",
@@ -5436,7 +5436,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，<@cc.kw>源石</>类配方的生产力<@cc.vup>+30%</>"
+      "description": "进驻制造站时，源石类配方的生产力 +30%"
     },
     "manu_formula_spd[201]": {
       "buffId": "manu_formula_spd[201]",
@@ -5446,7 +5446,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，<@cc.kw>源石</>类配方的生产力<@cc.vup>+35%</>"
+      "description": "进驻制造站时，源石类配方的生产力 +35%"
     },
     "manu_formula_spd[210]": {
       "buffId": "manu_formula_spd[210]",
@@ -5456,7 +5456,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，<@cc.kw>源石</>类配方的生产力<@cc.vup>+35%</>"
+      "description": "进驻制造站时，源石类配方的生产力 +35%"
     },
     "manu_formula_spd[211]": {
       "buffId": "manu_formula_spd[211]",
@@ -5466,7 +5466,7 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，<@cc.kw>源石</>类配方的生产力<@cc.vup>+35%</>"
+      "description": "进驻制造站时，源石类配方的生产力 +35%"
     },
     "trade_ord_spd[000]": {
       "buffId": "trade_ord_spd[000]",
@@ -5476,7 +5476,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+20%</>"
+      "description": "进驻贸易站时，订单获取效率 +20%"
     },
     "trade_ord_spd[001]": {
       "buffId": "trade_ord_spd[001]",
@@ -5486,7 +5486,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+30%</>"
+      "description": "进驻贸易站时，订单获取效率 +30%"
     },
     "trade_ord_spd[010]": {
       "buffId": "trade_ord_spd[010]",
@@ -5496,7 +5496,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+20%</>"
+      "description": "进驻贸易站时，订单获取效率 +20%"
     },
     "trade_ord_spd[011]": {
       "buffId": "trade_ord_spd[011]",
@@ -5506,7 +5506,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+30%</>"
+      "description": "进驻贸易站时，订单获取效率 +30%"
     },
     "trade_ord_spd[020]": {
       "buffId": "trade_ord_spd[020]",
@@ -5516,7 +5516,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+35%</>"
+      "description": "进驻贸易站时，订单获取效率 +35%"
     },
     "trade_ord_spd&limit[000]": {
       "buffId": "trade_ord_spd&limit[000]",
@@ -5526,7 +5526,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+10%</>，且订单上限<@cc.vup>+1</>"
+      "description": "进驻贸易站时，订单获取效率 +10%，且订单上限 +1"
     },
     "trade_ord_spd&limit[010]": {
       "buffId": "trade_ord_spd&limit[010]",
@@ -5536,7 +5536,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+25%</>，且订单上限<@cc.vup>+1</>"
+      "description": "进驻贸易站时，订单获取效率 +25%，且订单上限 +1"
     },
     "trade_ord_spd&limit[020]": {
       "buffId": "trade_ord_spd&limit[020]",
@@ -5546,7 +5546,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+15%</>，且订单上限<@cc.vup>+1</>"
+      "description": "进驻贸易站时，订单获取效率 +15%，且订单上限 +1"
     },
     "trade_ord_spd&limit[021]": {
       "buffId": "trade_ord_spd&limit[021]",
@@ -5556,7 +5556,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+15%</>，且订单上限<@cc.vup>+2</>"
+      "description": "进驻贸易站时，订单获取效率 +15%，且订单上限 +2"
     },
     "trade_ord_spd&limit[022]": {
       "buffId": "trade_ord_spd&limit[022]",
@@ -5566,7 +5566,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+20%</>，且订单上限<@cc.vup>+3</>"
+      "description": "进驻贸易站时，订单获取效率 +20%，且订单上限 +3"
     },
     "trade_ord_spd&limit[030]": {
       "buffId": "trade_ord_spd&limit[030]",
@@ -5576,7 +5576,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+20%</>"
+      "description": "进驻贸易站时，订单获取效率 +20%"
     },
     "trade_ord_spd&limit[031]": {
       "buffId": "trade_ord_spd&limit[031]",
@@ -5586,7 +5586,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+30%</>，且订单上限<@cc.vup>+1</>"
+      "description": "进驻贸易站时，订单获取效率 +30%，且订单上限 +1"
     },
     "trade_ord_spd&cost[000]": {
       "buffId": "trade_ord_spd&cost[000]",
@@ -5596,7 +5596,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+30%</>，每小时心情消耗<@cc.vup>-0.25</>"
+      "description": "进驻贸易站时，订单获取效率 +30%，每小时心情消耗 -0.25"
     },
     "trade_ord_limit&cost[000]": {
       "buffId": "trade_ord_limit&cost[000]",
@@ -5606,7 +5606,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单上限<@cc.vup>+3</>，每小时心情消耗<@cc.vup>-0.25</>"
+      "description": "进驻贸易站时，订单上限 +3，每小时心情消耗 -0.25"
     },
     "trade_ord_spd&cost_P[000]": {
       "buffId": "trade_ord_spd&cost_P[000]",
@@ -5616,7 +5616,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "当与<@cc.kw>拉普兰德</>在同一个贸易站时，心情每小时消耗<@cc.vdown>+0.3</>，订单获取效率<@cc.vup>+65%</>"
+      "description": "当与拉普兰德在同一个贸易站时，心情每小时消耗 +0.3，订单获取效率 +65%"
     },
     "trade_ord_limit&cost_P[010]": {
       "buffId": "trade_ord_limit&cost_P[010]",
@@ -5626,7 +5626,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "当与<@cc.kw>能天使</>在同一个贸易站时，心情每小时消耗<@cc.vup>-0.3</>"
+      "description": "当与能天使在同一个贸易站时，心情每小时消耗 -0.3"
     },
     "trade_ord_limit&cost_P[000]": {
       "buffId": "trade_ord_limit&cost_P[000]",
@@ -5636,7 +5636,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "当与<@cc.kw>德克萨斯</>在同一个贸易站时，心情每小时消耗<@cc.vup>-0.1</>，订单上限<@cc.vup>+2</>"
+      "description": "当与德克萨斯在同一个贸易站时，心情每小时消耗 -0.1，订单上限 +2"
     },
     "trade_ord_limit&cost_P[001]": {
       "buffId": "trade_ord_limit&cost_P[001]",
@@ -5646,7 +5646,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "当与<@cc.kw>德克萨斯</>在同一个贸易站时，心情每小时消耗<@cc.vup>-0.1</>，订单上限<@cc.vup>+4</>"
+      "description": "当与德克萨斯在同一个贸易站时，心情每小时消耗 -0.1，订单上限 +4"
     },
     "workshop_proc_probability[000]": {
       "buffId": "workshop_proc_probability[000]",
@@ -5656,7 +5656,7 @@
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "进驻加工站加工<@cc.kw>任意类材料</>时，副产品的产出概率提升<@cc.vup>40%</>"
+      "description": "进驻加工站加工任意类材料时，副产品的产出概率提升 40%"
     },
     "workshop_proc_probability[001]": {
       "buffId": "workshop_proc_probability[001]",
@@ -5666,7 +5666,7 @@
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "进驻加工站加工<@cc.kw>任意类材料</>时，副产品的产出概率提升<@cc.vup>60%</>"
+      "description": "进驻加工站加工任意类材料时，副产品的产出概率提升 60%"
     },
     "workshop_proc_probability[010]": {
       "buffId": "workshop_proc_probability[010]",
@@ -5676,7 +5676,7 @@
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "进驻加工站加工<@cc.kw>任意类材料</>时，副产品的产出概率提升<@cc.vup>50%</>"
+      "description": "进驻加工站加工任意类材料时，副产品的产出概率提升 50%"
     },
     "workshop_proc_probability[020]": {
       "buffId": "workshop_proc_probability[020]",
@@ -5686,7 +5686,7 @@
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "进驻加工站加工<@cc.kw>任意类材料</>时，副产品的产出概率提升<@cc.vup>65%</>"
+      "description": "进驻加工站加工任意类材料时，副产品的产出概率提升 65%"
     },
     "workshop_formula_probability[000]": {
       "buffId": "workshop_formula_probability[000]",
@@ -5696,7 +5696,7 @@
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "进驻加工站加工<@cc.kw>技巧概要</>时，副产品的产出概率提升<@cc.vup>70%</>"
+      "description": "进驻加工站加工技巧概要时，副产品的产出概率提升 70%"
     },
     "workshop_formula_probability[100]": {
       "buffId": "workshop_formula_probability[100]",
@@ -5706,7 +5706,7 @@
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "进驻加工站加工<@cc.kw>精英材料</>时，副产品的产出概率提升<@cc.vup>70%</>"
+      "description": "进驻加工站加工精英材料时，副产品的产出概率提升 70%"
     },
     "workshop_formula_probability[110]": {
       "buffId": "workshop_formula_probability[110]",
@@ -5716,7 +5716,7 @@
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "进驻加工站加工<@cc.kw>精英材料</>时，副产品的产出概率提升<@cc.vup>75%</>"
+      "description": "进驻加工站加工精英材料时，副产品的产出概率提升 75%"
     },
     "workshop_formula_probability[120]": {
       "buffId": "workshop_formula_probability[120]",
@@ -5726,7 +5726,7 @@
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "进驻加工站加工<@cc.kw>精英材料</>时，副产品的产出概率提升<@cc.vup>75%</>"
+      "description": "进驻加工站加工精英材料时，副产品的产出概率提升 75%"
     },
     "workshop_formula_probability[121]": {
       "buffId": "workshop_formula_probability[121]",
@@ -5736,7 +5736,7 @@
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "进驻加工站加工<@cc.kw>精英材料</>时，副产品的产出概率提升<@cc.vup>80%</>"
+      "description": "进驻加工站加工精英材料时，副产品的产出概率提升 80%"
     },
     "workshop_formula_probability[130]": {
       "buffId": "workshop_formula_probability[130]",
@@ -5746,7 +5746,7 @@
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "进驻加工站加工<@cc.kw>精英材料</>时，副产品的产出概率提升<@cc.vup>75%</>"
+      "description": "进驻加工站加工精英材料时，副产品的产出概率提升 75%"
     },
     "workshop_formula_probability[131]": {
       "buffId": "workshop_formula_probability[131]",
@@ -5756,7 +5756,7 @@
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "进驻加工站加工<@cc.kw>精英材料</>时，副产品的产出概率提升<@cc.vup>80%</>"
+      "description": "进驻加工站加工精英材料时，副产品的产出概率提升 80%"
     },
     "workshop_formula_probability[200]": {
       "buffId": "workshop_formula_probability[200]",
@@ -5766,7 +5766,7 @@
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "进驻加工站加工<@cc.kw>基建材料</>时，副产品的产出概率提升<@cc.vup>70%</>"
+      "description": "进驻加工站加工基建材料时，副产品的产出概率提升 70%"
     },
     "workshop_formula_probability[300]": {
       "buffId": "workshop_formula_probability[300]",
@@ -5776,7 +5776,7 @@
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "进驻加工站加工<@cc.kw>芯片</>时，副产品的产出概率提升<@cc.vup>70%</>"
+      "description": "进驻加工站加工芯片时，副产品的产出概率提升 70%"
     },
     "train_spd[000]": {
       "buffId": "train_spd[000]",
@@ -5786,7 +5786,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，干员的训练速度<@cc.vup>+25%</>"
+      "description": "进驻训练室协助位时，干员的训练速度 +25%"
     },
     "train_spd&profession[010]": {
       "buffId": "train_spd&profession[010]",
@@ -5796,7 +5796,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，先锋干员的专精技能训练速度<@cc.vup>+30%</>"
+      "description": "进驻训练室协助位时，先锋干员的专精技能训练速度 +30%"
     },
     "train_spd&profession[011]": {
       "buffId": "train_spd&profession[011]",
@@ -5806,7 +5806,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，先锋干员的专精技能训练速度<@cc.vup>+50%</>"
+      "description": "进驻训练室协助位时，先锋干员的专精技能训练速度 +50%"
     },
     "train_spd&profession[020]": {
       "buffId": "train_spd&profession[020]",
@@ -5816,7 +5816,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，近卫干员的专精技能训练速度<@cc.vup>+30%</>"
+      "description": "进驻训练室协助位时，近卫干员的专精技能训练速度 +30%"
     },
     "train_spd&profession[021]": {
       "buffId": "train_spd&profession[021]",
@@ -5826,7 +5826,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，近卫干员的专精技能训练速度<@cc.vup>+50%</>"
+      "description": "进驻训练室协助位时，近卫干员的专精技能训练速度 +50%"
     },
     "train_spd&profession[030]": {
       "buffId": "train_spd&profession[030]",
@@ -5836,7 +5836,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，重装干员的专精技能训练速度<@cc.vup>+30%</>"
+      "description": "进驻训练室协助位时，重装干员的专精技能训练速度 +30%"
     },
     "train_spd&profession[031]": {
       "buffId": "train_spd&profession[031]",
@@ -5846,7 +5846,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，重装干员的专精技能训练速度<@cc.vup>+50%</>"
+      "description": "进驻训练室协助位时，重装干员的专精技能训练速度 +50%"
     },
     "train_spd&profession[040]": {
       "buffId": "train_spd&profession[040]",
@@ -5856,7 +5856,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，狙击干员的专精技能训练速度<@cc.vup>+30%</>"
+      "description": "进驻训练室协助位时，狙击干员的专精技能训练速度 +30%"
     },
     "train_spd&profession[041]": {
       "buffId": "train_spd&profession[041]",
@@ -5866,7 +5866,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，狙击干员的专精技能训练速度<@cc.vup>+50%</>"
+      "description": "进驻训练室协助位时，狙击干员的专精技能训练速度 +50%"
     },
     "train_spd&profession[050]": {
       "buffId": "train_spd&profession[050]",
@@ -5876,7 +5876,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，术师干员的专精技能训练速度<@cc.vup>+30%</>"
+      "description": "进驻训练室协助位时，术师干员的专精技能训练速度 +30%"
     },
     "train_spd&profession[051]": {
       "buffId": "train_spd&profession[051]",
@@ -5886,7 +5886,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，术师干员的专精技能训练速度<@cc.vup>+50%</>"
+      "description": "进驻训练室协助位时，术师干员的专精技能训练速度 +50%"
     },
     "train_spd&profession[060]": {
       "buffId": "train_spd&profession[060]",
@@ -5896,7 +5896,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，辅助干员的专精技能训练速度<@cc.vup>+30%</>"
+      "description": "进驻训练室协助位时，辅助干员的专精技能训练速度 +30%"
     },
     "train_spd&profession[061]": {
       "buffId": "train_spd&profession[061]",
@@ -5906,7 +5906,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，辅助干员的专精技能训练速度<@cc.vup>+50%</>"
+      "description": "进驻训练室协助位时，辅助干员的专精技能训练速度 +50%"
     },
     "train_spd&profession[070]": {
       "buffId": "train_spd&profession[070]",
@@ -5916,7 +5916,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，医疗干员的专精技能训练速度<@cc.vup>+30%</>"
+      "description": "进驻训练室协助位时，医疗干员的专精技能训练速度 +30%"
     },
     "train_spd&profession[071]": {
       "buffId": "train_spd&profession[071]",
@@ -5926,7 +5926,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，医疗干员的专精技能训练速度<@cc.vup>+50%</>"
+      "description": "进驻训练室协助位时，医疗干员的专精技能训练速度 +50%"
     },
     "train_spd&profession[080]": {
       "buffId": "train_spd&profession[080]",
@@ -5936,7 +5936,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，特种干员的专精技能训练速度<@cc.vup>+30%</>"
+      "description": "进驻训练室协助位时，特种干员的专精技能训练速度 +30%"
     },
     "train_spd&profession[081]": {
       "buffId": "train_spd&profession[081]",
@@ -5946,7 +5946,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，特种干员的专精技能训练速度<@cc.vup>+50%</>"
+      "description": "进驻训练室协助位时，特种干员的专精技能训练速度 +50%"
     },
     "train_spd&profession[130]": {
       "buffId": "train_spd&profession[130]",
@@ -5956,7 +5956,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "进驻训练室协助位时，重装干员的专精技能训练速度<@cc.vup>+60%</>"
+      "description": "进驻训练室协助位时，重装干员的专精技能训练速度 +60%"
     },
     "dorm_rec_oneself[000]": {
       "buffId": "dorm_rec_oneself[000]",
@@ -5966,7 +5966,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，自身心情每小时恢复<@cc.vup>+0.7</>"
+      "description": "进驻宿舍时，自身心情每小时恢复 +0.7"
     },
     "dorm_rec_oneself[010]": {
       "buffId": "dorm_rec_oneself[010]",
@@ -5976,7 +5976,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，自身心情每小时恢复<@cc.vup>+0.85</>"
+      "description": "进驻宿舍时，自身心情每小时恢复 +0.85"
     },
     "dorm_rec_oneself[020]": {
       "buffId": "dorm_rec_oneself[020]",
@@ -5986,7 +5986,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，自身心情每小时恢复<@cc.vup>+1</>"
+      "description": "进驻宿舍时，自身心情每小时恢复 +1"
     },
     "dorm_rec_single[000]": {
       "buffId": "dorm_rec_single[000]",
@@ -5996,7 +5996,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<@cc.vup>+0.65</>（同种效果取最高）"
+      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复 +0.65（同种效果取最高）"
     },
     "dorm_rec_single[010]": {
       "buffId": "dorm_rec_single[010]",
@@ -6006,7 +6006,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<@cc.vup>+0.55</>（同种效果取最高）"
+      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复 +0.55（同种效果取最高）"
     },
     "dorm_rec_single[020]": {
       "buffId": "dorm_rec_single[020]",
@@ -6016,7 +6016,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<@cc.vup>+0.75</>（同种效果取最高）"
+      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复 +0.75（同种效果取最高）"
     },
     "dorm_rec_all[000]": {
       "buffId": "dorm_rec_all[000]",
@@ -6026,7 +6026,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复<@cc.vup>+0.1</>（同种效果取最高）"
+      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复 +0.1（同种效果取最高）"
     },
     "dorm_rec_all[010]": {
       "buffId": "dorm_rec_all[010]",
@@ -6036,7 +6036,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复<@cc.vup>+0.15</>（同种效果取最高）"
+      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复 +0.15（同种效果取最高）"
     },
     "dorm_rec_all[020]": {
       "buffId": "dorm_rec_all[020]",
@@ -6046,7 +6046,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复<@cc.vup>+0.15</>（同种效果取最高）"
+      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复 +0.15（同种效果取最高）"
     },
     "dorm_rec_all[030]": {
       "buffId": "dorm_rec_all[030]",
@@ -6056,7 +6056,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复<@cc.vup>+0.15</>（同种效果取最高）"
+      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复 +0.15（同种效果取最高）"
     },
     "dorm_rec_all[040]": {
       "buffId": "dorm_rec_all[040]",
@@ -6066,7 +6066,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复<@cc.vup>+0.2</>（同种效果取最高）"
+      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复 +0.2（同种效果取最高）"
     },
     "dorm_rec_all[050]": {
       "buffId": "dorm_rec_all[050]",
@@ -6076,7 +6076,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复<@cc.vup>+0.2</>（同种效果取最高）"
+      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复 +0.2（同种效果取最高）"
     },
     "dorm_rec_all[060]": {
       "buffId": "dorm_rec_all[060]",
@@ -6086,7 +6086,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复<@cc.vup>+0.2</>（同种效果取最高）"
+      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复 +0.2（同种效果取最高）"
     },
     "dorm_rec_single&oneself[000]": {
       "buffId": "dorm_rec_single&oneself[000]",
@@ -6096,7 +6096,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<@cc.vup>+0.2</>（同种效果取最高）；同时自身心情每小时恢复<@cc.vup>+0.4</>"
+      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复 +0.2（同种效果取最高）；同时自身心情每小时恢复 +0.4"
     },
     "dorm_rec_single&oneself[001]": {
       "buffId": "dorm_rec_single&oneself[001]",
@@ -6106,7 +6106,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<@cc.vup>+0.25</>（同种效果取最高）；同时自身心情每小时恢复<@cc.vup>+0.5</>"
+      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复 +0.25（同种效果取最高）；同时自身心情每小时恢复 +0.5"
     },
     "dorm_rec_single&oneself[010]": {
       "buffId": "dorm_rec_single&oneself[010]",
@@ -6116,7 +6116,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<@cc.vup>+0.3</>（同种效果取最高）；同时自身心情每小时恢复<@cc.vup>+0.3</>"
+      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复 +0.3（同种效果取最高）；同时自身心情每小时恢复 +0.3"
     },
     "dorm_rec_single&oneself[011]": {
       "buffId": "dorm_rec_single&oneself[011]",
@@ -6126,7 +6126,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<@cc.vup>+0.35</>（同种效果取最高）；同时自身心情每小时恢复<@cc.vup>+0.35</>"
+      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复 +0.35（同种效果取最高）；同时自身心情每小时恢复 +0.35"
     },
     "dorm_rec_single&oneself[021]": {
       "buffId": "dorm_rec_single&oneself[021]",
@@ -6136,7 +6136,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<@cc.vup>+0.5</>（同种效果取最高）；同时自身心情每小时恢复<@cc.vup>+0.25</>"
+      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复 +0.5（同种效果取最高）；同时自身心情每小时恢复 +0.25"
     },
     "dorm_rec_single&oneself[030]": {
       "buffId": "dorm_rec_single&oneself[030]",
@@ -6146,7 +6146,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<@cc.vup>+0.5</>（同种效果取最高）；同时自身心情每小时恢复<@cc.vup>+0.25</>"
+      "description": "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复 +0.5（同种效果取最高）；同时自身心情每小时恢复 +0.25"
     },
     "dorm_rec_all&oneself[000]": {
       "buffId": "dorm_rec_all&oneself[000]",
@@ -6156,7 +6156,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，自身心情每小时恢复<@cc.vdown>-0.1</>，该宿舍内所有干员心情每小时恢复<@cc.vup>+0.2</>（同种效果取最高）"
+      "description": "进驻宿舍时，自身心情每小时恢复 -0.1，该宿舍内所有干员心情每小时恢复 +0.2（同种效果取最高）"
     },
     "dorm_rec_all&oneself[001]": {
       "buffId": "dorm_rec_all&oneself[001]",
@@ -6166,7 +6166,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "进驻宿舍时，自身心情每小时恢复<@cc.vdown>-0.1</>，该宿舍内所有干员心情每小时恢复<@cc.vup>+0.25</>（同种效果取最高）"
+      "description": "进驻宿舍时，自身心情每小时恢复 -0.1，该宿舍内所有干员心情每小时恢复 +0.25（同种效果取最高）"
     },
     "hire_spd[000]": {
       "buffId": "hire_spd[000]",
@@ -6176,7 +6176,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
-      "description": "进驻人力办公室时，人脉资源的累计速度<@cc.vup>+20%</>"
+      "description": "进驻人力办公室时，人脉资源的累计速度 +20%"
     },
     "hire_spd[010]": {
       "buffId": "hire_spd[010]",
@@ -6186,7 +6186,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
-      "description": "进驻人力办公室时，人脉资源的累计速度<@cc.vup>+30%</>"
+      "description": "进驻人力办公室时，人脉资源的累计速度 +30%"
     },
     "hire_spd[011]": {
       "buffId": "hire_spd[011]",
@@ -6196,7 +6196,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
-      "description": "进驻人力办公室时，人脉资源的累计速度<@cc.vup>+45%</>"
+      "description": "进驻人力办公室时，人脉资源的累计速度 +45%"
     },
     "hire_spd[020]": {
       "buffId": "hire_spd[020]",
@@ -6206,7 +6206,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
-      "description": "进驻人力办公室时，人脉资源的累计速度<@cc.vup>+40%</>"
+      "description": "进驻人力办公室时，人脉资源的累计速度 +40%"
     },
     "meet_spd[000]": {
       "buffId": "meet_spd[000]",
@@ -6216,7 +6216,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "进驻会客室时，线索搜集速度<@cc.vup>+10%</>"
+      "description": "进驻会客室时，线索搜集速度 +10%"
     },
     "meet_spd[001]": {
       "buffId": "meet_spd[001]",
@@ -6226,7 +6226,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "进驻会客室时，线索搜集速度<@cc.vup>+20%</>"
+      "description": "进驻会客室时，线索搜集速度 +20%"
     },
     "meet_spd[010]": {
       "buffId": "meet_spd[010]",
@@ -6236,7 +6236,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "进驻会客室时，线索搜集速度<@cc.vup>+25%</>"
+      "description": "进驻会客室时，线索搜集速度 +25%"
     },
     "meet_spd[020]": {
       "buffId": "meet_spd[020]",
@@ -6246,7 +6246,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "进驻会客室时，线索搜集速度<@cc.vup>+25%</>"
+      "description": "进驻会客室时，线索搜集速度 +25%"
     },
     "meet_spd&team[000]": {
       "buffId": "meet_spd&team[000]",
@@ -6256,7 +6256,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "进驻会客室时，线索搜集速度<@cc.vup>+10%</>"
+      "description": "进驻会客室时，线索搜集速度 +10%"
     },
     "meet_spd&team[010]": {
       "buffId": "meet_spd&team[010]",
@@ -6266,7 +6266,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "进驻会客室时，线索搜集速度<@cc.vup>+10%</>，且更容易获得<@cc.kw>莱茵生命</>线索"
+      "description": "进驻会客室时，线索搜集速度 +10%，且更容易获得莱茵生命线索"
     },
     "meet_spd&team[030]": {
       "buffId": "meet_spd&team[030]",
@@ -6276,7 +6276,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "进驻会客室时，线索搜集速度<@cc.vup>+10%</>，且更容易获得<@cc.kw>黑钢国际</>线索"
+      "description": "进驻会客室时，线索搜集速度 +10%，且更容易获得黑钢国际线索"
     },
     "meet_spd&team[040]": {
       "buffId": "meet_spd&team[040]",
@@ -6286,7 +6286,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "进驻会客室时，线索搜集速度<@cc.vup>+10%</>，且更容易获得<@cc.kw>喀兰贸易</>线索"
+      "description": "进驻会客室时，线索搜集速度 +10%，且更容易获得喀兰贸易线索"
     },
     "meet_spd&team[050]": {
       "buffId": "meet_spd&team[050]",
@@ -6296,7 +6296,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "进驻会客室时，线索搜集速度<@cc.vup>+10%</>，且更容易获得<@cc.kw>乌萨斯学生自治团</>线索"
+      "description": "进驻会客室时，线索搜集速度 +10%，且更容易获得乌萨斯学生自治团线索"
     },
     "meet_spd&team[060]": {
       "buffId": "meet_spd&team[060]",
@@ -6306,7 +6306,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "进驻会客室时，线索搜集速度<@cc.vup>+10%</>，且更容易获得<@cc.kw>罗德岛制药</>线索"
+      "description": "进驻会客室时，线索搜集速度 +10%，且更容易获得罗德岛制药线索"
     },
     "meet_spd&team[070]": {
       "buffId": "meet_spd&team[070]",
@@ -6316,7 +6316,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "进驻会客室时，线索搜集速度<@cc.vup>+10%</>，且更容易获得<@cc.kw>格拉斯哥帮</>线索"
+      "description": "进驻会客室时，线索搜集速度 +10%，且更容易获得格拉斯哥帮线索"
     }
   },
   "customData": {
