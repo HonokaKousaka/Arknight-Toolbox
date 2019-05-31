@@ -23,7 +23,7 @@
 }
 
 body{
-    background-color: rgb(54, 54, 54);
+    background-color: rgba(151,151,151,1.00);
     font-family: 'NotoSansHans Light', Arial, sans-serif;
 }
 body>nav {
