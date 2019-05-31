@@ -2,39 +2,40 @@
 
 $(document).ready(function(){
     let dropdown = []
+	dropdown.push({name:"首页",content:"index.html"})
     dropdown.push({
-        name:"Calculator",
+        name:"计算器",
         content:[
             {
                 href:"akhr.html",
-                name:"Recruitment",
+                name:"公开招募计算器",
             },{
                 href:"aklevel.html",
-                name:"Leveling"
+                name:"升级消耗计算器"
             },{
                 href:"akevolve.html",
-                name:"Material"
+                name:"精英材料计算器"
             }]
     })
     dropdown.push({
-        name:"Information",
+        name:"资讯",
         content:[
         {
             href:"akhrchars.html",
-            name:"Operator"
+            name:"干员资料"
         },{
             href:"akenemy.html",
-            name:"Enemy"
+            name:"敌人资料"
         },{
             href:"akriic.html",
-            name:"Infrastructure Skill"
+            name:"基建技能"
         }]
     })
-    dropdown.push({name:"Elite Materials",content:"akhrelite.html"})
-    dropdown.push({name:"Guide",content:"akguide.html"})
-    dropdown.push({name:"Mission Story",content:"akstory.html"})
+    dropdown.push({name:"精英所需材料查询",content:"akhrelite.html"})
+    dropdown.push({name:"指南",content:"akguide.html"})
+    dropdown.push({name:"主线故事",content:"akstory.html"})
     dropdown.push({
-        name:"Extra",
+        name:"其他",
         content:[
         {
             href:"aklinker.html",
@@ -67,7 +68,7 @@ $(document).ready(function(){
                 }
                 
             })
-            isCurrent = isCurrent?isCurrent:"Menu"
+            isCurrent = isCurrent?isCurrent:"展开"
             navDropdown.push(`
             <li class="nav-item dropdown ${isCurrent!="menu"&&isGroup?"active":""}">
             <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px;"href="#" id="regionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" >
@@ -107,22 +108,22 @@ $(document).ready(function(){
 
                 <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px;"href="#" id="regionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" >
-                                <div class="ak-subtitle ak-disable" translate-id="language-1">Server</div>
+                                <div class="ak-subtitle ak-disable" translate-id="language-1">服务器</div>
                                 <div class="ak-disable" id="display-reg">CN</div>
                         </a>
                         
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item reg unselectable" onclick="regDropdown($(this))" value="cn">Chinese</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="display: none;">
+                            <a class="dropdown-item reg unselectable" onclick="regDropdown($(this))" value="cn">中国</a>
                         </div>
                     </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" style="display: none;">
                     <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px"href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             <div class="ak-subtitle ak-disable" translate-id="language-2">Language</div>
                             <div class="ak-disable" id="display-lang">English</div>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="en">English</a>
                         <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="cn">Chinese</a>
+                        <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="en">English</a>
                         <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="jp">Japanese</a>
                     </div>
                 </li>

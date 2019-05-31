@@ -30,9 +30,9 @@
         if(typeof localStorage.gameRegion === "undefined" || localStorage.gameRegion == ""|| localStorage.webLang == ""){
             console.log("game region undefined");
             localStorage.setItem("gameRegion", 'cn');
-            localStorage.setItem("webLang", 'en');
+            localStorage.setItem("webLang", 'cn'); //default language select cn
             reg = "cn";
-            lang = "en";
+            lang = "cn"; //default hr label lang
         } else {
             console.log(localStorage.webLang);
             reg = localStorage.gameRegion;
@@ -529,8 +529,8 @@
             $('#display-reg').text(reg.toUpperCase())
             
             switch (lang) {
-                case "en":$('#display-lang').text("English");break;
                 case "cn":$('#display-lang').text("Chinese");break;
+                case "en":$('#display-lang').text("English");break;
                 case "jp":$('#display-lang').text("Japanese");break;
             }
             

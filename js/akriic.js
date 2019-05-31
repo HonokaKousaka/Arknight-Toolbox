@@ -33,7 +33,7 @@
     var d10 = $.getJSON("json/excel/building_data.json",function(data){
             db["building_chars"] = data.chars;
         });
-    var d11 = $.getJSON("json/dragonjet/riic.json",function(data){
+    var d11 = $.getJSON("json/riic.json",function(data){
             db["riic"] = data;
         });
     $.when(d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11).then(function(){
@@ -126,9 +126,9 @@
         if(typeof localStorage.gameRegion === "undefined" || localStorage.gameRegion == ""|| localStorage.webLang == ""){
             console.log("game region undefined");
             localStorage.setItem("gameRegion", 'cn');
-            localStorage.setItem("webLang", 'en');
+            localStorage.setItem("webLang", 'cn');
             reg = "cn";
-            lang = "en";
+            lang = "cn";
         } else {
             console.log(localStorage.webLang);
             reg = localStorage.gameRegion;
@@ -180,10 +180,11 @@
             let extraInfo =""
             // console.log(element.name)
             
-            currHtml.push(`<div class="row" style="padding:5px;margin:5px;background:#333333">
+            currHtml.push(`<div class="row" style="padding:5px;margin:5px;background:#292929">
                             <div class="col-4 col-sm-2" style="text-align:center;padding:3px;margin:auto">
                                 <div style="padding-top:3px"><img src="img/avatars/${element.name}_1.png" style="height:120px"></div>
-                                <div style="margin:auto">${chara.appellation}</div>
+                                <br>
+                                <div style="margin:auto">${chara.name}</div>
                             </div>
                             <div class="col-8 col-sm-10" style="margin:auto;padding:2px"> ` )
             // console.log(charaRiic)
@@ -197,23 +198,23 @@
                     extraInfo = ``
                     
                     if(element.buff[i].buffId.includes("control")){
-                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-control" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/control.png" style="height:20px;padding-bottom:3px">HQ </div>`
+                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-control" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/control.png" style="height:20px;padding-bottom:3px"> 控制中枢 </div>`
                     }else if(element.buff[i].buffId.includes("power")){
-                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-power" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/power.png" style="height:20px;padding-bottom:3px">Power </div>`
+                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-power" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/power.png" style="height:20px;padding-bottom:3px"> 发电站 </div>`
                     }else if(element.buff[i].buffId.includes("manu")){
-                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-manu" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/manu.png" style="height:20px;padding-bottom:3px">Manufacture </div>`
+                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-manu" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/manu.png" style="height:20px;padding-bottom:3px"> 制造站 </div>`
                     }else if(element.buff[i].buffId.includes("trade")){
-                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-trade" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/trade.png" style="height:20px;padding-bottom:3px">Trading </div>`
+                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-trade" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/trade.png" style="height:20px;padding-bottom:3px"> 贸易站 </div>`
                     }else if(element.buff[i].buffId.includes("workshop")){
-                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-workshop" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/workshop.png" style="height:20px;padding-bottom:3px">Workshop </div>`
+                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-workshop" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/workshop.png" style="height:20px;padding-bottom:3px"> 加工站 </div>`
                     }else if(element.buff[i].buffId.includes("train")){
-                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-train" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/train.png" style="height:20px;padding-bottom:3px">Training </div>`
+                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-train" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/train.png" style="height:20px;padding-bottom:3px"> 训练室 </div>`
                     }else if(element.buff[i].buffId.includes("dorm")){
-                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-dorm" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/dorm.png" style="height:20px;padding-bottom:3px">Dorm </div>`
+                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-dorm" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/dorm.png" style="height:20px;padding-bottom:3px"> 宿舍 </div>`
                     }else if(element.buff[i].buffId.includes("hire")){
-                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-hire" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/hire.png" style="height:20px;padding-bottom:3px">Hiring </div>`
+                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-hire" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/hire.png" style="height:20px;padding-bottom:3px"> 办公室 </div>`
                     }else if(element.buff[i].buffId.includes("meet")){
-                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-meet" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/meet.png" style="height:20px;padding-bottom:3px">Meeting </div>`
+                        extraInfo = `<div class="btn btn-sm ak-disable ak-btn ak-riic-meet" style="height:25px;margin:auto;padding:1px;padding-right:3px"><img src="img/ui/infrastructure/meet.png" style="height:20px;padding-bottom:3px"> 会议室 </div>`
     
                         if(element.buff[i].buffId.includes("meet_spd&team")){
                             let currbuff = db.building_buff[element.buff[i].buffId].description
@@ -247,10 +248,10 @@
                         req = `Lv.${element.buff[i].cond.level}`
                     }
                     if(element.buff[i].cond.phase>0){
-                        req = req + ` Elite ${element.buff[i].cond.phase}`
+                        req = req + ` 精英 ${element.buff[i].cond.phase}`
                     }
                     if(req!=""){
-                        req = `<div class="btn btn-sm ak-disable ak-btn" style="height:25px;margin:auto;padding:1px;background:#0078BC;">Req: ${req}</div>`
+                        req = `<div class="btn btn-sm ak-disable ak-btn" style="height:25px;margin:auto;padding:1px;background:#0078BC;">需要: ${req}</div>`
                     }
                     // console.log(req)     
                     currHtml.push(`<div class="ak-disable ak-c-black" style="padding:10px;margin:auto"><div style="padding:5px;background:#222">${extraInfo}  ${charaRiicTL?charaRiicTL[i].name: currBuff2.buffName} ${req}</div><div style="padding-left:20px">${charaRiicTL?charaRiicTL[i].desc:currBuff2.description}</div></div>` )

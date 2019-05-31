@@ -13,7 +13,7 @@ function urlParam(sParam, defaultVal = undefined) {
 }
 
 function getLang() {
-    return urlParam("lang", "en");
+    return urlParam("lang", "cn");
 }
 
 let _lang = getLang();
