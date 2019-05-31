@@ -38,8 +38,8 @@ $(document).ready(function(){
         name:"其他",
         content:[
         {
-            href:"aklinker.html",
-            name:"bilibili Linker"
+            href:"#",
+            name:"待命..."
         }]
     })
     // console.log(window.location.href.split("/")[window.location.href.split("/").length-1])
