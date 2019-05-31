@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="theme-color" content="#222222ff">
     <title translate-id="web-title">Arknights Recruitment Calculator</title>
-    <link rel="manifest" href="./manifest.json" crossorigin="use-credentials">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/ak.css">
     <link rel="stylesheet" href="css/akchardetail.css">
@@ -15,27 +14,19 @@
     <script src="js/jquery-3.4.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <!-- site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138420636-1"></script>/
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-138420636-1');
-        
-    </script>
+
     <script>
             $(function(){
               $("#nav-placeholder").load("nav.html");
             });
      </script>
 </head>
-<body  >
+<body>
     <!-- style=" background-image: url(./img/extra/bg1.png)" -->
     <button class="btn btn-sm btn-primary goToTag" style="position:fixed;bottom:15px ;right: 0px;size:70px 70px;padding: 10px;z-index: 10000" id="to-tag" type="button">^ </button>
     <nav id="aknav" class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" style="background-image: linear-gradient(#222222ff 70%,#222222ff , #111111aa );">
         <img src="./img/factions/logo_rhodes.png" style="transform:scale(1.2,1.2)translate(-8px,1px)" class="d-inline-block align-top" alt="" width="40" height="40">
-            <a class="navbar-brand" href="#" translate-id="topbar-1">Arknights Toolbox</a>
+            <a class="navbar-brand" href="#" translate-id="topbar-1">明日方舟工具箱</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="展开">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,17 +35,17 @@
                         
                 <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px;" href="#" id="regionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        <div class="ak-subtitle ak-disable">Calculator</div>
+                        <div class="ak-subtitle ak-disable" translate-id="calculator-label">Calculator</div>
                 
-                        <div class="ak-disable ">Recruitment</div>
+                        <div class="ak-disable" translate-id="topbar-2">Recruitment</div>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 
-                    <a class="dropdown-item" href="akhr.html">Recruitment</a>
+                    <a class="dropdown-item" href="akhr.html" translate-id="topbar-2">Recruitment</a>
                     
-                    <a class="dropdown-item" href="aklevel.html">Leveling</a>
+                    <a class="dropdown-item" href="aklevel.html" translate-id="topbar-4">Leveling</a>
                     
-                    <a class="dropdown-item" href="akevolve.html">Material</a>
+                    <a class="dropdown-item" href="akevolve.html" translate-id="topbar-6">Material</a>
                     </div>
                 </li><li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px;" href="#" id="regionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -103,18 +94,18 @@
                                     <div class="ak-disable" id="display-reg">CN</div>
                             </a>
                             
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="display: none;">
                                 <a class="dropdown-item reg unselectable" onclick="regDropdown($(this))" value="cn">Chinese</a>
                             </div>
                         </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown" style="display: none;">
                         <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                 <div class="ak-subtitle ak-disable" translate-id="language-2">Language</div>
-                                <div class="ak-disable" id="display-lang">English</div>
+                                <div class="ak-disable" id="display-lang">Chinese</div>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="en">English</a>
                             <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="cn">Chinese</a>
+                            <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="en">English</a>
                             <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="jp">Japanese</a>
                         </div>
                     </li>
@@ -124,6 +115,7 @@
     <div style="padding-bottom:40px;"></div>
     <!-- <div class="warning-sign"style="position: absolute;z-index: 999999;background:#aaa;top:100px;left:50%;width:500px;height:200px;margin-left:-250px;text-align:center; vertical-align:center">aaaaaaaaaaaaaaaaaaaaa</div> -->
     <div class="col-md-12 col-sm-12 " style="margin:auto;max-width:1000px;padding:0" >
+        <br>
         <div class="col-12 ak-back ak-shadow mt-3" style="padding:15px;padding-top:0%;padding-bottom:0;border-radius:0px" role="alert">
             <div class="row" style="padding:0;padding-bottom: 4px">
                     <div class="col-12 btn btn-sm ak-btn ak-c-black ak-shadow-small ak-disable" style="padding:0" translate-id="selector-title">Select the tags :</div>
